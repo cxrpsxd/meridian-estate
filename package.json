@@ -1,0 +1,7 @@
+{
+  "name": "meridian-estate",
+  "private": true,
+  "description": "Концепт сайта агентства элитной недвижимости",
+  "scripts": { "build": "node build.js", "dev": "node build.js && python -m http.server 8080 --directory site" },
+  "engines": { "node": ">=18" }
+}

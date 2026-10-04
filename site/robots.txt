@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /favorites/
+Disallow: /*?*
+
+Host: https://meridian-estate.example
+Sitemap: https://meridian-estate.example/sitemap.xml
