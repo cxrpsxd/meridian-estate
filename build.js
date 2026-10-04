@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const MR = require('./site/assets/js/data.js');
 
-const SITE = 'https://meridian-estate.example'; // ← замените на боевой домен
+const SITE = 'https://meridian-estate-six.vercel.app'; // ← замените на боевой домен
 const OUT = path.join(__dirname, 'site');
 const VER = Date.now().toString(36);
 const today = new Date().toISOString().slice(0, 10);

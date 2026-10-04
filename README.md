@@ -12,7 +12,7 @@ python -m http.server 8080 --directory site
 
 ## Публикация
 
-Перетащите папку `site` на https://app.netlify.com/drop — через минуту будет ссылка вида `https://<имя>.netlify.app`. Подойдут также GitHub Pages или Vercel.
+Сайт задеплоен на Vercel: https://meridian-estate-six.vercel.app — каждый push в `main` публикуется автоматически. Альтернатива: перетащить папку `site` на https://app.netlify.com/drop.
 
 ## Что внутри
 

@@ -3,5 +3,5 @@ Disallow: /admin/
 Disallow: /favorites/
 Disallow: /*?*
 
-Host: https://meridian-estate.example
-Sitemap: https://meridian-estate.example/sitemap.xml
+Host: https://meridian-estate-six.vercel.app
+Sitemap: https://meridian-estate-six.vercel.app/sitemap.xml

@@ -199,7 +199,7 @@
       if (!idTouched) idf.value = slugify(title.value);
       var t = form.elements.seoTitle.value || (title.value || 'Заголовок объекта') + ' — Meridian';
       var d = form.elements.seoDesc.value || (form.elements.description.value || '').slice(0, 155);
-      form.querySelector('[data-snippet]').innerHTML = '<span style="color:var(--muted)">meridian-estate.example › object › ' + esc(idf.value || '…') + '</span><b style="font-weight:500;color:var(--accent)">' + esc(t) + '</b><span style="color:var(--muted)">' + esc(d) + '</span>';
+      form.querySelector('[data-snippet]').innerHTML = '<span style="color:var(--muted)">meridian-estate-six.vercel.app › object › ' + esc(idf.value || '…') + '</span><b style="font-weight:500;color:var(--accent)">' + esc(t) + '</b><span style="color:var(--muted)">' + esc(d) + '</span>';
     }
     form.addEventListener('input', snippet); snippet();
 
